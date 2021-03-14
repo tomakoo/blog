@@ -8,13 +8,17 @@
     <language>ja</language>
     <lastBuildDate>Sun, 14 Mar 2021 14:31:05 +0900</lastBuildDate><atom:link href="https://tomakoo.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>マークダウン記法 メモ</title>
+      <title>マークダウン記法メモ</title>
       <link>https://tomakoo.github.io/blog/post/blog-2/</link>
       <pubDate>Sun, 14 Mar 2021 14:31:05 +0900</pubDate>
       
       <guid>https://tomakoo.github.io/blog/post/blog-2/</guid>
-      <description>見出し # レベル1 ## レベル2 ### レベル3 #### レベル4 ##### レベル5 レベル1 レベル2 レベル3 レベル4 レベル5 コードブロック &amp;ldquo;```&amp;ldquo;で囲う
-brew install hugo </description>
+      <description>見出し # レベル1 ## レベル2 ### レベル3 #### レベル4 ##### レベル5 レベル1 レベル2 レベル3 レベル4 レベル5 コード &amp;ldquo;`&amp;ldquo;バッククオーツで囲う(インライン)
+`インライン文字です `インライン文字です
+&amp;ldquo;```&amp;ldquo;バッククオーツで囲う(ブロックコード)
+&amp;ldquo;```javascript&amp;quot;後ろに言語指定でシンタックスハイライト
+```javascript function hello() { console.log(&amp;#39;Hello&amp;#39;); } ``` function hello() { console.log(&amp;#39;Hello&amp;#39;); } リンク [Qiita](https://qiita.com/) Qiita
+区切り線 --- *** ___    </description>
     </item>
     
     <item>
@@ -23,17 +27,24 @@ brew install hugo </description>
       <pubDate>Sun, 14 Mar 2021 13:16:20 +0900</pubDate>
       
       <guid>https://tomakoo.github.io/blog/post/blog-1/</guid>
-      <description>Hugoインストール homebrewのインストール https://brew.sh/index_ja homebrewを用いてHugoをインストール
-brew install hugo ※https://gohugo.io/getting-started/quick-start/ クイックスタート参照
-サイトを作成 　以下を作業フォルダにて実行 hugo new site dev-blog
-サイトルートディレクトリへ移動 cd dev-blog
-テーマ追加 リポジトリをthemes/ディレクトリに複製 git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
-次の行をconfig.tomlファイルに追加します。 theme = &amp;ldquo;m10c&amp;rdquo;
-config.tomlファイルの設定
-テーマのインストールの手順に従いテーマを追加する。 https://themes.gohugo.io/hugo-theme-m10c/
-ページの作成 hugo new posts/first_post.md
-サーバーを立ち上げて確認 hugo server -D
-http://Localhost:1313</description>
+      <description>導入手順についてはクイックスタート参照
+クイックスタート
+Hugoインストール Hugoをhomebrewを用いてインストールする。
+Homebrewのインストール 以下サイトよりダウンロード、インストールする
+※インストール済みの場合は当手順は不要
+Homebrew
+Hugoのインストール ターミナルより以下コマンドを実行
+brew install hugo サイトを作成 ターミナルより以下のコマンドを作業フォルダにて実行
+hugo new site blog テーマ追加 好きなテーマを選ぶ https://themes.gohugo.io/
+テーマのインストールの手順に従いテーマを追加 今回選んだテーマ https://themes.gohugo.io/hugo-theme-m10c/
+サイトルートディレクトリへ移動
+cd blog リポジトリをthemes/ディレクトリに複製
+git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 次の行をconfig.tomlファイルに追加します。
+theme = &amp;#34;m10c&amp;#34; config.tomlファイルの設定 選んだテーマの説明を参照
+ページの作成 hugo new posts/first_post.md ローカルサーバーを立ち上げて確認 hugo server -D http://Localhost:1313/blog/
+Github pagesへ公開 Hugoのビルドコマンドを実行後、Github pages用事準備したリポジトリへビルドされたソースファイルをコミットする。
+ビルドコマンド
+hugo </description>
     </item>
     
   </channel>

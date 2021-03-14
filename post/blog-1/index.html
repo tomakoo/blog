@@ -13,30 +13,44 @@
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugoの導入手順"/>
-<meta name="twitter:description" content="Hugoインストール homebrewのインストール https://brew.sh/index_ja homebrewを用いてHugoをインストール
-brew install hugo ※https://gohugo.io/getting-started/quick-start/ クイックスタート参照
-サイトを作成 　以下を作業フォルダにて実行 hugo new site dev-blog
-サイトルートディレクトリへ移動 cd dev-blog
-テーマ追加 リポジトリをthemes/ディレクトリに複製 git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
-次の行をconfig.tomlファイルに追加します。 theme = &ldquo;m10c&rdquo;
-config.tomlファイルの設定
-テーマのインストールの手順に従いテーマを追加する。 https://themes.gohugo.io/hugo-theme-m10c/
-ページの作成 hugo new posts/first_post.md
-サーバーを立ち上げて確認 hugo server -D
-http://Localhost:1313"/>
+<meta name="twitter:description" content="導入手順についてはクイックスタート参照
+クイックスタート
+Hugoインストール Hugoをhomebrewを用いてインストールする。
+Homebrewのインストール 以下サイトよりダウンロード、インストールする
+※インストール済みの場合は当手順は不要
+Homebrew
+Hugoのインストール ターミナルより以下コマンドを実行
+brew install hugo サイトを作成 ターミナルより以下のコマンドを作業フォルダにて実行
+hugo new site blog テーマ追加 好きなテーマを選ぶ https://themes.gohugo.io/
+テーマのインストールの手順に従いテーマを追加 今回選んだテーマ https://themes.gohugo.io/hugo-theme-m10c/
+サイトルートディレクトリへ移動
+cd blog リポジトリをthemes/ディレクトリに複製
+git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 次の行をconfig.tomlファイルに追加します。
+theme = &#34;m10c&#34; config.tomlファイルの設定 選んだテーマの説明を参照
+ページの作成 hugo new posts/first_post.md ローカルサーバーを立ち上げて確認 hugo server -D http://Localhost:1313/blog/
+Github pagesへ公開 Hugoのビルドコマンドを実行後、Github pages用事準備したリポジトリへビルドされたソースファイルをコミットする。
+ビルドコマンド
+hugo "/>
 
     <meta property="og:title" content="Hugoの導入手順" />
-<meta property="og:description" content="Hugoインストール homebrewのインストール https://brew.sh/index_ja homebrewを用いてHugoをインストール
-brew install hugo ※https://gohugo.io/getting-started/quick-start/ クイックスタート参照
-サイトを作成 　以下を作業フォルダにて実行 hugo new site dev-blog
-サイトルートディレクトリへ移動 cd dev-blog
-テーマ追加 リポジトリをthemes/ディレクトリに複製 git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
-次の行をconfig.tomlファイルに追加します。 theme = &ldquo;m10c&rdquo;
-config.tomlファイルの設定
-テーマのインストールの手順に従いテーマを追加する。 https://themes.gohugo.io/hugo-theme-m10c/
-ページの作成 hugo new posts/first_post.md
-サーバーを立ち上げて確認 hugo server -D
-http://Localhost:1313" />
+<meta property="og:description" content="導入手順についてはクイックスタート参照
+クイックスタート
+Hugoインストール Hugoをhomebrewを用いてインストールする。
+Homebrewのインストール 以下サイトよりダウンロード、インストールする
+※インストール済みの場合は当手順は不要
+Homebrew
+Hugoのインストール ターミナルより以下コマンドを実行
+brew install hugo サイトを作成 ターミナルより以下のコマンドを作業フォルダにて実行
+hugo new site blog テーマ追加 好きなテーマを選ぶ https://themes.gohugo.io/
+テーマのインストールの手順に従いテーマを追加 今回選んだテーマ https://themes.gohugo.io/hugo-theme-m10c/
+サイトルートディレクトリへ移動
+cd blog リポジトリをthemes/ディレクトリに複製
+git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 次の行をconfig.tomlファイルに追加します。
+theme = &#34;m10c&#34; config.tomlファイルの設定 選んだテーマの説明を参照
+ページの作成 hugo new posts/first_post.md ローカルサーバーを立ち上げて確認 hugo server -D http://Localhost:1313/blog/
+Github pagesへ公開 Hugoのビルドコマンドを実行後、Github pages用事準備したリポジトリへビルドされたソースファイルをコミットする。
+ビルドコマンド
+hugo " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://tomakoo.github.io/blog/post/blog-1/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-03-14T13:16:20&#43;09:00" />
@@ -90,32 +104,44 @@ http://Localhost:1313" />
       </div>
     </header>
     <div class="post-content">
-      <h3 id="hugoインストール">Hugoインストール</h3>
-<p>homebrewのインストール
-<a href="https://brew.sh/index_ja">https://brew.sh/index_ja</a>
-homebrewを用いてHugoをインストール</p>
-<pre><code>brew install hugo
-</code></pre><p>※https://gohugo.io/getting-started/quick-start/
-クイックスタート参照</p>
-<h3 id="サイトを作成">サイトを作成</h3>
-<p>　以下を作業フォルダにて実行
-　hugo new site dev-blog</p>
-<p>サイトルートディレクトリへ移動
-cd dev-blog</p>
-<h3 id="テーマ追加">テーマ追加</h3>
-<p>リポジトリをthemes/ディレクトリに複製
-git clone <a href="https://github.com/vaga/hugo-theme-m10c.git">https://github.com/vaga/hugo-theme-m10c.git</a> themes/m10c</p>
-<p>次の行をconfig.tomlファイルに追加します。
-theme = &ldquo;m10c&rdquo;</p>
-<p>config.tomlファイルの設定</p>
-<p>テーマのインストールの手順に従いテーマを追加する。
+      <p>導入手順についてはクイックスタート参照<br>
+<a href="https://gohugo.io/getting-started/quick-start/">クイックスタート</a></p>
+<h1 id="hugoインストール">Hugoインストール</h1>
+<p>Hugoをhomebrewを用いてインストールする。</p>
+<h4 id="homebrewのインストール">Homebrewのインストール</h4>
+<p>以下サイトよりダウンロード、インストールする<br>
+※インストール済みの場合は当手順は不要<br>
+<a href="https://brew.sh/index_ja">Homebrew</a></p>
+<h4 id="hugoのインストール">Hugoのインストール</h4>
+<p>ターミナルより以下コマンドを実行</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew install hugo
+</code></pre></div><h1 id="サイトを作成">サイトを作成</h1>
+<p>ターミナルより以下のコマンドを作業フォルダにて実行</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new site blog
+</code></pre></div><h1 id="テーマ追加">テーマ追加</h1>
+<h4 id="好きなテーマを選ぶ">好きなテーマを選ぶ</h4>
+<p><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+<h5 id="テーマのインストールの手順に従いテーマを追加">テーマのインストールの手順に従いテーマを追加</h5>
+<p>今回選んだテーマ
 <a href="https://themes.gohugo.io/hugo-theme-m10c/">https://themes.gohugo.io/hugo-theme-m10c/</a></p>
-<h3 id="ページの作成">ページの作成</h3>
-<p>hugo new posts/first_post.md</p>
-<h3 id="サーバーを立ち上げて確認">サーバーを立ち上げて確認</h3>
-<p>hugo server -D</p>
-<p>http://Localhost:1313</p>
-
+<p>サイトルートディレクトリへ移動</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd blog
+</code></pre></div><p>リポジトリをthemes/ディレクトリに複製</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
+</code></pre></div><p>次の行をconfig.tomlファイルに追加します。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">theme <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;m10c&#34;</span>
+</code></pre></div><h1 id="configtomlファイルの設定">config.tomlファイルの設定</h1>
+<p>選んだテーマの説明を参照</p>
+<h1 id="ページの作成">ページの作成</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new posts/first_post.md
+</code></pre></div><h1 id="ローカルサーバーを立ち上げて確認">ローカルサーバーを立ち上げて確認</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo server -D
+</code></pre></div><p><a href="http://Localhost:1313/blog/">http://Localhost:1313/blog/</a></p>
+<h1 id="github-pagesへ公開">Github pagesへ公開</h1>
+<p>Hugoのビルドコマンドを実行後、Github pages用事準備したリポジトリへビルドされたソースファイルをコミットする。<br>
+ビルドコマンド</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo 
+</code></pre></div>
     </div>
     <div class="post-footer">
       
