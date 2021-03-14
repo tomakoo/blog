@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tomakoo blog</title>
-    <link>http://example.org/</link>
+    <link>https://tomakoo.github.io/blog/</link>
     <description>Recent content on tomakoo blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 14 Mar 2021 14:31:05 +0900</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Mar 2021 14:31:05 +0900</lastBuildDate><atom:link href="https://tomakoo.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>マークダウン記法 メモ</title>
-      <link>http://example.org/post/blog-2/</link>
+      <link>https://tomakoo.github.io/blog/post/blog-2/</link>
       <pubDate>Sun, 14 Mar 2021 14:31:05 +0900</pubDate>
       
-      <guid>http://example.org/post/blog-2/</guid>
+      <guid>https://tomakoo.github.io/blog/post/blog-2/</guid>
       <description>見出し # レベル1 ## レベル2 ### レベル3 #### レベル4 ##### レベル5 レベル1 レベル2 レベル3 レベル4 レベル5 コードブロック &amp;ldquo;```&amp;ldquo;で囲う
 brew install hugo </description>
     </item>
     
     <item>
       <title>Hugoの導入手順</title>
-      <link>http://example.org/post/blog-1/</link>
+      <link>https://tomakoo.github.io/blog/post/blog-1/</link>
       <pubDate>Sun, 14 Mar 2021 13:16:20 +0900</pubDate>
       
-      <guid>http://example.org/post/blog-1/</guid>
+      <guid>https://tomakoo.github.io/blog/post/blog-1/</guid>
       <description>Hugoインストール homebrewのインストール https://brew.sh/index_ja homebrewを用いてHugoをインストール
 brew install hugo ※https://gohugo.io/getting-started/quick-start/ クイックスタート参照
 サイトを作成 　以下を作業フォルダにて実行 hugo new site dev-blog
