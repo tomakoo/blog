@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tomakoo blog</title>
+    <link>http://example.org/</link>
+    <description>Recent content on tomakoo blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 14 Mar 2021 14:31:05 +0900</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>マークダウン記法 メモ</title>
+      <link>http://example.org/post/blog-2/</link>
+      <pubDate>Sun, 14 Mar 2021 14:31:05 +0900</pubDate>
+      
+      <guid>http://example.org/post/blog-2/</guid>
+      <description>見出し # レベル1 ## レベル2 ### レベル3 #### レベル4 ##### レベル5 レベル1 レベル2 レベル3 レベル4 レベル5 コードブロック &amp;ldquo;```&amp;ldquo;で囲う
+brew install hugo </description>
+    </item>
+    
+    <item>
+      <title>Hugoの導入手順</title>
+      <link>http://example.org/post/blog-1/</link>
+      <pubDate>Sun, 14 Mar 2021 13:16:20 +0900</pubDate>
+      
+      <guid>http://example.org/post/blog-1/</guid>
+      <description>Hugoインストール homebrewのインストール https://brew.sh/index_ja homebrewを用いてHugoをインストール
+brew install hugo ※https://gohugo.io/getting-started/quick-start/ クイックスタート参照
+サイトを作成 　以下を作業フォルダにて実行 hugo new site dev-blog
+サイトルートディレクトリへ移動 cd dev-blog
+テーマ追加 リポジトリをthemes/ディレクトリに複製 git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
+次の行をconfig.tomlファイルに追加します。 theme = &amp;ldquo;m10c&amp;rdquo;
+config.tomlファイルの設定
+テーマのインストールの手順に従いテーマを追加する。 https://themes.gohugo.io/hugo-theme-m10c/
+ページの作成 hugo new posts/first_post.md
+サーバーを立ち上げて確認 hugo server -D
+http://Localhost:1313</description>
+    </item>
+    
+  </channel>
+</rss>
