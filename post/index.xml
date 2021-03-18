@@ -36,17 +36,6 @@ createinstallmedia実行</description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://tomakoo.github.io/blog/post/about/</link>
-      <pubDate>Mon, 15 Mar 2021 11:08:15 +0900</pubDate>
-      
-      <guid>https://tomakoo.github.io/blog/post/about/</guid>
-      <description>当ホームページについて 勉強したことや日常のことその他趣味のことなど雑多なことを徒然なるままに記したブログ
-&amp;hellip;にしようかと思っていますが、趣味と技術でブログを分けようか考え中です。
-とりあえず、ページも増えて慣れてきたら整備しようかと。</description>
-    </item>
-    
-    <item>
       <title>マークダウン記法メモ</title>
       <link>https://tomakoo.github.io/blog/post/blog-2/</link>
       <pubDate>Sun, 14 Mar 2021 14:31:05 +0900</pubDate>
