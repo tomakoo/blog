@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on tomakoo blog</title>
+    <link>https://tomakoo.github.io/blog/tags/markdown/</link>
+    <description>Recent content in markdown on tomakoo blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 14 Mar 2021 14:31:05 +0900</lastBuildDate><atom:link href="https://tomakoo.github.io/blog/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>マークダウン記法メモ</title>
+      <link>https://tomakoo.github.io/blog/post/blog-2/</link>
+      <pubDate>Sun, 14 Mar 2021 14:31:05 +0900</pubDate>
+      
+      <guid>https://tomakoo.github.io/blog/post/blog-2/</guid>
+      <description>見出し # レベル1 ## レベル2 ### レベル3 #### レベル4 ##### レベル5 レベル1 レベル2 レベル3 レベル4 レベル5 コード &amp;ldquo;`&amp;ldquo;バッククオーツで囲う(インライン)
+`インライン文字です `インライン文字です
+&amp;ldquo;```&amp;ldquo;バッククオーツで囲う(ブロックコード)
+&amp;ldquo;```javascript&amp;quot;後ろに言語指定でシンタックスハイライト
+```javascript function hello() { console.log(&amp;#39;Hello&amp;#39;); } ``` function hello() { console.log(&amp;#39;Hello&amp;#39;); } リンク [tomakoo blog](https://tomakoo.github.io/blog/) tomakoo blog
+区切り線 --- *** ___    </description>
+    </item>
+    
+  </channel>
+</rss>

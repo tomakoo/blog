@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>themes on tomakoo blog</title>
+    <link>https://tomakoo.github.io/blog/tags/themes/</link>
+    <description>Recent content in themes on tomakoo blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 14 Mar 2021 13:16:20 +0900</lastBuildDate><atom:link href="https://tomakoo.github.io/blog/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoの導入手順</title>
+      <link>https://tomakoo.github.io/blog/post/blog-1/</link>
+      <pubDate>Sun, 14 Mar 2021 13:16:20 +0900</pubDate>
+      
+      <guid>https://tomakoo.github.io/blog/post/blog-1/</guid>
+      <description>導入手順についてはクイックスタート参照
+クイックスタート
+Hugoインストール Hugoをhomebrewを用いてインストールする。
+Homebrewのインストール 以下サイトよりダウンロード、インストールする
+※インストール済みの場合は当手順は不要
+Homebrew
+Hugoのインストール ターミナルより以下コマンドを実行
+brew install hugo サイトを作成 ターミナルより以下のコマンドを作業フォルダにて実行
+hugo new site blog テーマ追加 好きなテーマを選ぶ https://themes.gohugo.io/
+テーマのインストールの手順に従いテーマを追加 今回選んだテーマ https://themes.gohugo.io/hugo-theme-m10c/
+サイトルートディレクトリへ移動
+cd blog リポジトリをthemes/ディレクトリに複製
+git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 次の行をconfig.tomlファイルに追加します。
+theme = &amp;#34;m10c&amp;#34; config.tomlファイルの設定 選んだテーマの説明を参照
+ページの作成 hugo new posts/first_post.md ローカルサーバーを立ち上げて確認 hugo server -D http://Localhost:1313/blog/
+Github pagesへ公開 Hugoのビルドコマンドを実行後、Github pages用事準備したリポジトリへビルドされたソースファイルをコミットする。
+ビルドコマンド
+hugo </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,35 @@
     <description>Recent content in Posts on tomakoo blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 14 Mar 2021 14:31:05 +0900</lastBuildDate><atom:link href="https://tomakoo.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Mar 2021 20:59:43 +0900</lastBuildDate><atom:link href="https://tomakoo.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adobe製品ライセンス譲渡手順</title>
+      <link>https://tomakoo.github.io/blog/post/blog-4/</link>
+      <pubDate>Mon, 15 Mar 2021 20:59:43 +0900</pubDate>
+      
+      <guid>https://tomakoo.github.io/blog/post/blog-4/</guid>
+      <description>準備するもの 1譲渡先（元）の方のADOBEアカウント
+2譲渡先（元）の方のお名前
+手順　譲渡する人、譲渡される人両者ともに必要 1ライセンス譲渡申請フォームの準備
+2ログインしてサポートへお問い合わせ
+ライセンス譲渡申請フォームを準備し、ケース番号を取得したい旨伝える
+3フォームの送付</description>
+    </item>
+    
+    <item>
+      <title>macOS Sierraのインストールディスク作成方法</title>
+      <link>https://tomakoo.github.io/blog/post/blog-3/</link>
+      <pubDate>Mon, 15 Mar 2021 20:35:04 +0900</pubDate>
+      
+      <guid>https://tomakoo.github.io/blog/post/blog-3/</guid>
+      <description>手順 １インストーラーをダウンロード
+２インストーラーを実行
+３USB初期化
+４インストーラー作成
+pilot.info修正
+createinstallmedia実行</description>
+    </item>
+    
     <item>
       <title>マークダウン記法メモ</title>
       <link>https://tomakoo.github.io/blog/post/blog-2/</link>
@@ -17,7 +45,7 @@
 `インライン文字です `インライン文字です
 &amp;ldquo;```&amp;ldquo;バッククオーツで囲う(ブロックコード)
 &amp;ldquo;```javascript&amp;quot;後ろに言語指定でシンタックスハイライト
-```javascript function hello() { console.log(&amp;#39;Hello&amp;#39;); } ``` function hello() { console.log(&amp;#39;Hello&amp;#39;); } リンク [Qiita](https://qiita.com/) Qiita
+```javascript function hello() { console.log(&amp;#39;Hello&amp;#39;); } ``` function hello() { console.log(&amp;#39;Hello&amp;#39;); } リンク [tomakoo blog](https://tomakoo.github.io/blog/) tomakoo blog
 区切り線 --- *** ___    </description>
     </item>
     
